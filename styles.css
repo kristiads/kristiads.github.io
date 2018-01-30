@@ -1,7 +1,4 @@
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
   background-color: #ad1120;
 }
 
@@ -22,6 +19,14 @@
   text-align: right;
 }
 
+.container {
+  align-content:center;
+}
+
+#adventure {
+  background-image: url(img/adv-river.jpg);
+}
+
 #unfortunate {
   background-image: url(img/unf-bridge.jpg);
   text-align: center;
@@ -31,7 +36,7 @@ h1 {
   text-shadow: 1px 1px 1px grey;
 }
 
-h2 {
+h3 {
 color: #ad1120
 }
 
