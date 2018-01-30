@@ -1,0 +1,69 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ad1120;
+}
+
+.jumbotron {
+  padding: 0.5em 0.6em;
+  font-family: 'Homemade Apple', cursive;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2em;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+#home {
+  background-image: url(img/home-mybike.jpg);
+  text-align: right;
+}
+
+#beginning {
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#adventure {
+  background-image: url(img/adv-river.jpg);
+}
+
+#unfortunate {
+  background-image: url(img/unf-bridge.jpg);
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 1px 1px 1px grey;
+}
+
+h2 {
+color: #ad1120
+}
+
+#subtitle {
+  font-family: 'Homemade Apple', cursive;
+}
+
+.mb-0 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.blockquote-footer {
+  text-align: center;
+}
+
+/* Carousel */
+.carousel-caption {
+  text-shadow: 1px 1px 1px black;
+}
+
+.carousel {
+  width:100%;
+}

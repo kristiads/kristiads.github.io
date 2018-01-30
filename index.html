@@ -1,70 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <title>My Motorcycle Diary</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+</head>
+<body>
+  <!-- Your stuff goes here -->
 
-  <head>
-  <!-- Does not appear in the body of the page, but just for data that we want to attach to our page. -->
-  <!-- But there is exception, which is the "title" -->
-    <title>Visit Indonesia</title>
-  </head>
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="index.html">My Motorcycle Diary</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <body>
-    <h1>Reasons to visit to Indonesia</h1>
-    <hr>
-    <p>Indonesia is the 4th most populous country in the world and is made up of over 17,000 islands; however, often when people think of Indonesia, all that comes to mind is Bali. Although Bali is awesome in its own right, Indonesia as a whole is a great place to visit and has much to offer. Here are my ten reasons why you should visit Indonesia.</p>
-    <ol>
-      <li>Beach</li>
-      <ul>
-        <li>Kuta</li>
-        <p><img src="beach.jpg"></p>
-        <li>Bangka Belitung</li>
-        <li>
-        </ul>
-      <li>Diving Spots</li>
-      <ul>
-        <li>Raja Ampat, Papua</li>
-        <li>Bunaken, Manado</li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="beginning.html">Beginning</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="adventure.html">Adventure</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="unfortunate.html">Unfortunate Events</a>
+        </li>
       </ul>
-      <li>Food</li>
-      <p><img src="food.jpg"></p>
-      <ul>
-        <li>Rendang</li>
-        <p><a href="rendang.html">Indonesia's famous beef</a></p>
-        <li><em>Nasi</em> uduk</li>
-      </ul>
-      <li><strong>Dragon</strong></li>
-      <p><img src="komodo.jpg"></p>
-      <p>Find it <a href="komodo.html">here!</a></p>
-    </ol>
-    <p>Places of interest by island</p>
-    <p>
-      <!-- Table here -->
-      <table>
-      <tr>
-        <th>Island</th>
-        <th>Place of interest</th>
-      </tr>
-      <tr>
-        <td>Java</td>
-      <td>
-        <ul>
-          <li>Borobudur</li>
-          <li>Karimun Jawa</li>
-          <li>Mount Bromo</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td>Flores</td>
-      <td>
-        <ul>
-          <li>Kelimutu</li>
-          <li>Labuan Bajo</li>
-        </ul>
-      </td>
-    </tr>
-    </p>
+    </div>
+  </nav>
 
-    <p>To see more reasons, visit this <a href="https://www.gadventures.com/blog/10-reasons-you-should-visit-indonesia/">travel website</a></p>
-  </body>`
+  <!-- Jumbotron -->
+  <div class="jumbotron jumbotron-fluid" id="home">
+    <div class="container">
+      <h1 class="display-4">My Motorcyle Diary</h1>
+    </div>
+  </div>
 
-</html>
+  <!-- Grid -->
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Cards -->
+      <div class="col-lg">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/adv2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">The Beginning</h5>
+            <p class="card-text">I did not know how to drive anything until I graduated from college.
+              If it weren't because situation necessitated it, I would probably never learn how to ride a
+              motorbike.</p>
+              <p>So, let's start  from <a href="beginning.html" class="card-link">the beginning</a>.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/adv14.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">The Adventure</h5>
+              <p class="card-text">It turned out, I love riding a motorbike and feeling the wind on my face.
+                I found riding a motorbike therapeutic, and I could drive for hours and hours. My record was 12-hour (almost)
+                non-stop riding.</p>
+                <p>Though I can't tell the story of all my motorcycling journey, here's a preview of <a href="adventure.html" class="card-link">the adventure</a>.</p>
+              </div>
+            </div>
+          </div>
+
+
+            <div class="col-lg">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="img/adv16.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">The Unfortunate Events</h5>
+                  <p class="card-text">As there is an up, so there is a down. I have had my share of mishaps and near accidents.
+                  It is part and parcel of riding a motorbike, of life even. I have been blessed that despite my occassional
+                  recklessness, I have been safe so far.</p>
+                    <p>Nonetheless, I took pride in my 'survival' and collect as honor badges <a href="unfortunate.html" class="card-link">series of unfortunate events</a>.</p>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+      </div>
+
+    </body>
+    </html>
